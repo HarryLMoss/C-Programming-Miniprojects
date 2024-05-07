@@ -1,9 +1,5 @@
 # C Programming Miniprojects
-A collection of short-form projects in the C programming language, covering a variety of different functionalities that demonstrate my ability to apply core C concepts to a range of different user requirements.
-
-## Features
-- **Gain Control:** Adjust the input signal's amplitude.
-
+A collection of short-form projects in the C programming language built in VSCode, covering a variety of different functionalities that demonstrate my ability to apply core C concepts to a range of different user requirements.
 
 ## Getting Started
 
@@ -27,31 +23,32 @@ A collection of short-form projects in the C programming language, covering a va
     sudo apt update
     sudo apt install build-essential
     ```
-    For MacOS:
+   For MacOS:
     ```bash
     brew install gcc
     ```
-    For Windows:
+   For Windows:
    Download MinGW or Cygwin and install gcc.
+
 3. **Open the Project in VS Code**:
-Open Visual Studio Code.
-Click on File > Open Folder... and select the project folder.
-Visual Studio Code should automatically detect the C/C++ files.
+   Open Visual Studio Code.
+   Click on File > Open Folder... and select the project folder.
+   Visual Studio Code should automatically detect the C/C++ files.
 
 4. **Build the Project**:
-Open the terminal in Visual Studio Code (View > Terminal or `Ctrl + ``).
-Use the following command to build the project:
-```bash
-gcc -o main main.c
-```
-Replace main and main.c with your desired output file name and source file name(s).
+   Open the terminal in Visual Studio Code (View > Terminal or `Ctrl + ``).
+   Use the following command to build the project:
+    ```bash
+    gcc -o main main.c
+    ```
+   Replace main and main.c with your desired output file name and source file name(s).
 
-5. **Run the Project**:
+6. **Run the Project**:
    Execute the compiled binary with:
     ```bash
     ./main
     ```
-Adjust the command based on your output file name and operating system.
+   Adjust the command based on your output file name and operating system.
 
 ## Contributing
 Contributions to improve the C Programming Miniprojects are welcome. Please follow these steps to contribute:
