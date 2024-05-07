@@ -14,8 +14,8 @@ A collection of short-form projects in the C programming language built in VSCod
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/HarryLMoss/C-Programming-Miniprojects.git
+   cd C-Programming-Miniprojects
    ```
 2. **Install Dependencies**: Make sure you have gcc or clang installed. You can install them with the following commands:
    For Ubuntu/Debian:
