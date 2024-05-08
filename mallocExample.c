@@ -1,3 +1,6 @@
+// Author: Harry Moss
+// Date: 08.05.2024
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -5,13 +8,13 @@
 
 int main(void)
 {
-    char *stringPtr = NULL;
+    char *stringPtr = NULL;            // set string pointer to NULL
     int limit = 0;
     
     printf("enter string limit: ");
     scanf("%d", &limit);
 
-    stringPtr = (char*)malloc(limit*sizeof(char));
+    stringPtr = (char*)malloc(limit*sizeof(char));    // start dynamic memory allocation
 
     if(stringPtr)
     {
@@ -25,7 +28,7 @@ int main(void)
         printf("ERROR");
     }
 
-    free(stringPtr);
-    stringPtr = NULL;
+    free(stringPtr);                // free the pointer after to prevent errors
+    stringPtr = NULL;               // reset to NULL
     return 0;
 }
