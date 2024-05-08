@@ -1,3 +1,6 @@
+// Author: Harry Moss
+// Date: 08.05.2024
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,7 +16,7 @@ int main()
 
     minutesInYear = (60 * 24 * 365);
     years = (minutes / minutesInYear);
-    days = (int) (years * 365);
+    days = (int) (years * 365);        // explicit type cast to integer
 
     printf("Years: %f\n", years);
     printf("Days: %d", days);
